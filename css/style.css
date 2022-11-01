@@ -2,8 +2,24 @@
     margin-left: auto;
 }
 
-.features {
+.pad-60 {
     padding: 60px 0;
 }
 
+.form {
+    background-image: url("../img/slider-1.jpg");
+    height: 37vh;
+}
 
+
+
+
+
+@media (max-width: 768px) {
+    .service-item {
+        margin-bottom: 50px;
+    }
+    .service-item:last-child {
+        margin: 0;
+    }
+}
