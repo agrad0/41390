@@ -1,25 +1,44 @@
-.navbar-nav {
-    margin-left: auto;
-}
-
-.pad-60 {
+section,
+footer {
     padding: 60px 0;
 }
 
-.form {
-    background-image: url("../img/slider-1.jpg");
-    height: 37vh;
+.features-grid-img {
+    background-size: cover;
+    background-position: center;
+    height: 14rem;
 }
 
+.features-grid-text {
+    padding: 50px;
+}
 
+.features-grid {
+    padding: 0;
+}
 
+.team-item {
+    max-width: 200px;
+}
 
+.call-to-action {
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-position: center
+}
 
 @media (max-width: 768px) {
-    .service-item {
+    .service-item,
+    .team-item {
         margin-bottom: 50px;
     }
-    .service-item:last-child {
+
+    .service-item:last-child,
+    .team-item-last {
         margin: 0;
+    }
+
+    .feature-grid-img {
+        height: 300px;
     }
 }
